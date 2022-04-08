@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Kaushan Script', cursive;
+}
+#general{
+
+    background: rgba(0, 0, 0, 76);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.error{
+    border: 1px solid red !important;   
+}
+.contenedor{
+    max-width: 500px;
+    min-width: 380px;
+    background-color: white;
+    border-radius: 1px;
+    padding: 1rem;
+    border-radius: 1.1rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+}
+.br-50{
+    border-radius: 50px !important;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.span-or{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 13px;
+    margin-left: -25px;
+    background-color: white;
+    width: 50px;
+    text-align: center;
+}
+
+.login-or{
+    position: relative;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
